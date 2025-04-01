@@ -1,0 +1,22 @@
+{
+  "name": "smartbook",
+  "version": "1.0.0",
+  "description": "Đồ án môn Web nâng cao",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd smartbook-backend && npm run start\" \"cd smartbook-frontend && npm run start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volequocviet/VLU_WebBooks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/volequocviet/VLU_WebBooks/issues"
+  },
+  "homepage": "https://github.com/volequocviet/VLU_WebBooks#readme"
+}
